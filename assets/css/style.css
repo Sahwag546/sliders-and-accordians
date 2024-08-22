@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/*============== accordian-1 =================*/
+
+.btn-2::after {
+    background-image: url("data: image/svg+xml, %3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' %20viewBox%3D'0%200%2016%2016' %20fill%3D'none' %20stroke%3D'white' %20stroke-linecap%3D'round' %20stroke-linejoin%3D'round' %3E%3Cpath%20d%3D'M2%205L8%2011L14%205' %2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.btn-3::after {
+    background-image: url("data: image/svg+xml, %3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' %20viewBox%3D'0%200%2016%2016' %20fill%3D'none' %20stroke%3D'skyblue' %20stroke-linecap%3D'round' %20stroke-linejoin%3D'round' %3E%3Cpath%20d%3D'M2%205L8%2011L14%205' %2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.accordion-2-image {
+    background-image: url(/assets/images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.accordion-text-1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.accordion-text-2 {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.accordion-body-para {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: white !important;
+}
+
+.bg-yellow {
+    background: #f6e300;
+}
+
+.faq {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.bg-light-yellow {
+    background: #fff03f !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    color: black;
+}
+
+.accordian-pera {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.accordion-item-1 {
+    border: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    color: black;
+}
+
+.bg-light-yellow {
+    background: #fff03f !important;
+}
+
+.accordion-text-2 {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+. {
+    color: #b7b8b8 !important;
+}
+
+.a-btn:not(.collapsed) {
+    background-color: #171717 !important;
+    color: white !important;
+}
+
+.bg-blur {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.03) 100%) !important;
+    border-radius: 6px !important;
+    overflow: hidden;
+
+}
+
+/* .blur{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+} */
+
+.accordion-button {
+    color: black !important;
+}
+
+.accordion-btn-2 {
+    color: white !important;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.li-hight-30 {
+    line-height: 30px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.min-height {
+    min-height: 80vh;
+}
+
+.mh-64 {
+    min-height: 64px;
+}
+
+.acc-2 button {
+    background-color: transparent !important;
+}
+
+.acc-2 .accordion-item {
+    position: relative;
+    border: none !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
+}
+
+.accordion-body.accordian-pera.li-hight-32 {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.acc-2 .accordion-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0px;
+    padding: 2px;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+}
+
+.accordian-body {
+    min-height: 34px !important;
+
+}
+
+/* ========================Accordion-3======================== */
+.audiowide {
+    font-family: "Audiowide", sans-serif;
+
+}
+
+.Montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-image-3 {
+    background-image: url(/assets/images/backgroung-img-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.border-accordian {
+    border: 1px solid #1EADB6 !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 40px !important;
+}
+
+.border-shadow {
+    -webkit-box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+    -moz-box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+    box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+}
+
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.p-t-b {
+    padding: 10px 20px;
+    padding-top: 10px;
+}
+
+/* .w-1078 {
+    width: 1078px !important;
+} */
+
+.border-shadow:has(.accordion-header > .accordion-button.collapsed) {
+    box-shadow: unset !important;
+}
+
+.top {
+    top: -0.7px;
+    left: -0.3px;
+}
+
+.bottom {
+    bottom: -0.7px;
+    right: -1.5px;
+}
+
+/*============ section-4 =====================*/
+.para-4 {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.slick-current .para p {
+    color: white !important;
+}
+
+.slick-current .name p {
+    color: white !important;
+}
+
+.color-gray {
+    color: rgb(100, 97, 97) !important;
+}
+
+.box {
+    margin: 10px;
+}
+
+.bg-img {
+    background-image: url(/assets/images/Testimonials\ img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-img-2 {
+    background-image: url(/assets/images/section-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.name {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+}
+
+.test .slick-dots li {
+    background-color: white;
+    border-radius: 22px;
+    transition: all 200ms linear;
+    width: 10px;
+    height: 10px;
+}
+
+.test .slick-dots li.slick-active {
+    background: #1219D2;
+    width: 53px;
+    height: 10px;
+}
+
+.meet-our-team .slick-dots li {
+    background-color: white;
+    border-radius: 22px;
+    transition: all 200ms linear;
+    width: 28px;
+}
+
+.meet-our-team .slick-dots li.slick-active {
+    background: #1219D2;
+    width: 59px;
+}
+
+.testimal .slick-dots {
+    position: relative;
+    bottom: -42px;
+}
+
+.meet-text {
+    font-family: Plus Jakarta Sans;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 55.44px;
+    text-align: center;
+}
+
+
+/* ================= section-5 ===========*/
+.section-5 {
+    position: relative;
+}
+
+.img-1 {
+    position: absolute;
+    top: 65%;
+    left: 0;
+}
+
+.img-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.meet-our-team {
+    font-family: sans-serif;
+}
+
+.overflow-slider {
+    font-family: "rubik", sans-serif;
+}
+
+.fs_14 {
+    font-size: 14px;
+}
+
+.fs_18 {
+    font-size: 18px;
+}
+
+.fs_48 {
+    font-size: 48px;
+}
+
+.fc_gray {
+    color: #4F5665;
+}
+
+.meet-our-team.bg_image {
+    background-image: url(/assets/images/meet-our-bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_blue {
+    background: #1219D233;
+}
+
+.pd_20_24 {
+    padding: 20px 24px;
+}
+
+.radius_13 {
+    border-radius: 13px;
+}
+
+.meet-our-team .slick-dots li {
+    background-color: white;
+    border-radius: 22px;
+    transition: all 200ms linear;
+    width: 28px;
+    height: 12px;
+}
+
+.meet-our-team .slick-dots li button:before {
+    content: unset;
+}
+
+.meet-our-team .slick-dots li.slick-active {
+    background-color: #060effd8;
+    width: 59px;
+}
+
+.meet-our-team .slick-dots {
+    bottom: -50px;
+}
+
+.meet-our-team .slick-prev:before {
+    content: none;
+}
+
+.meet-our-team .slick-next:before {
+    content: none;
+}
+
+.slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+.meet-our-team .slick-track .slick-slide.slick-current.slick-active+.slick-active {
+    border: 3px solid #1219D2 !important;
+    border-radius: 14px;
+    overflow: hidden !important;
+}
+
+.mx-w-1140 {
+    max-width: 1140px;
+}
+
+@media (max-width:992px) {
+    .meet-our-team .slick-track .slick-slide.slick-current.slick-active {
+        border: 3px solid #1219D2 !important;
+        border-radius: 14px;
+        overflow: hidden !important;
+    }
+}
+
+
+
+/*================== section - 6 ======================*/
+.circle {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #F53838;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.circle-3 {
+    position: absolute;
+    right: 0;
+    margin-top: 80px;
+}
+
+.circle-4 {
+    position: absolute;
+    right: 80px;
+    margin-top: 80px;
+}
+
+.circle:hover {
+    border: 2px solid white;
+    background: #F53838;
+    transition: all 400ms;
+
+    path {
+        fill: white;
+    }
+}
+
+.para-2 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 20px;
+    max-width: 340px;
+}
+
+.box-4 {
+    border-radius: 10px;
+    border: 2px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.third-slide .slick-track {
+    display: flex !important;
+}
+
+.third-slide .slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.third-slide .slick-slide>div {
+    display: flex;
+}
+
+.slick-dots li button:before {
+    content: unset;
+}
+
+.third-slide .slick-dots li {
+    background: rgb(223, 220, 220);
+    border-radius: 30px;
+}
+
+.third-slide .slick-dots {
+    left: -44%;
+    position: relative;
+    bottom: -80px;
+
+}
+
+.text-1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.text-2 {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.third-slide .slick-dots li.slick-active {
+    background: orangered;
+    width: 58px;
+}
+
+.third-slider {
+    transform: translateX(120px);
+}
+
+.third-slide .slick-track .slick-slide.slick-current.slick-active {
+    border: 2px solid orangered;
+}
+
+@media (max-width:768px) {
+    .third-slider {
+        transform: none;
+    }
+
+    .circle-3 {
+        display: none !important;
+    }
+
+    .circle-4 {
+        display: none !important;
+    }
+
+    .third-slide .slick-dots {
+        position: relative;
+        left: 0;
+    }
+
+    .second-slide .slick-dots {
+        position: relative;
+        bottom: -30px;
+    }
+}
+
+@media (max-width:576px) {
+    .box-1 {
+        margin: 0 !important;
+    }
+
+    .box {
+        margin-right: 0 !important;
+    }
+
+    .second-slide .slick-dots {
+        position: relative;
+        bottom: -20px;
+    }
+
+    .testimal .slick-dots {
+        position: relative;
+        bottom: -30px;
+    }
+}

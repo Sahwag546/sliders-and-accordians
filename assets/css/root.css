@@ -1,0 +1,51 @@
+:root {
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+    --fs-xl: 18px;
+    --fs-2xl: 20px;
+    --fs-3xl: 24px;
+    --fs-4xl: 56px;
+    --fs-5xl: 64px;
+}
+
+:root {
+    --bg-black: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    --bg-yellow: #F6E300;
+    --bg-light-yellow: #FFF03F;
+    --color-white: #FFFFFF;
+}
+
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+.bg-light-yellow {
+    background: #FFF03F;
+}
+
+.bg-black {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+}
+
+.color-white {
+    color: #FFF;
+}
+
+.color-black {
+    color: #000;
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-sm: 10px;
+        --fs-md: 12px;
+        --fs-lg: 14px;
+        --fs-xl: 16px;
+        --fs-2xl: 18px;
+        --fs-3xl: 22px;
+        --fs-4xl: 48px;
+        --fs-5xl: 58px;
+    }
+
+}
